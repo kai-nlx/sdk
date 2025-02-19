@@ -3,6 +3,7 @@
 import { type Root, createRoot } from "react-dom/client";
 import { type ConversationHandler } from "@nlxai/chat-core";
 import htm from "htm";
+import "@livekit/components-styles";
 
 import App, { type Props, type AppRef } from "./App";
 import cssRaw from "./index.css?inline";

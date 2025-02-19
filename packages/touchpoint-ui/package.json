@@ -25,6 +25,8 @@
   },
   "dependencies": {
     "@livekit/components-react": "^2.8.1",
+    "@livekit/components-styles": "^1.1.4",
+    "@livekit/krisp-noise-filter": "^0.2.16",
     "@livekit/protocol": "^1.33.0",
     "@nlxai/chat-core": "^1.0.4-alpha.0",
     "@react-hookz/web": "^25.0.1",

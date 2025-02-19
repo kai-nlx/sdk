@@ -146,7 +146,7 @@ function SimpleVoiceAssistant(props: {
     props.onStateChange(state);
   }, [props, state]);
   return (
-    <div className="h-[300px] max-w-[90vw] mx-auto">
+    <div className="h-[300px] w-[300px] max-w-[90vw] mx-auto">
       <BarVisualizer
         state={state}
         barCount={5}
