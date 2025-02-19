@@ -23,6 +23,9 @@ const adjustJsEntryPoint = ({ mode }: { mode: string }): any => {
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode, command }) => ({
+  server: {
+    port: 3000,
+  },
   plugins: [
     react(),
     replace(

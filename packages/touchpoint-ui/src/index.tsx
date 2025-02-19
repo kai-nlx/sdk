@@ -17,7 +17,6 @@ import {
 } from "./components/ui/CustomCard";
 import { Carousel } from "./components/ui/Carousel";
 import { DateInput } from "./components/ui/DateInput";
-
 import { createElement, type FC } from "react";
 
 export { useTouchpointContext } from "./context";
@@ -148,3 +147,13 @@ export const create = (props: Props): TouchpointInstance => {
     },
   };
 };
+
+create({
+  config: {
+    botUrl: import.meta.env.VITE_BOT_URL,
+    headers: {
+      "nlx-api-key": import.meta.env.VITE_BOT_API_KEY,
+    },
+    languageCode: "en-US",
+  },
+});
